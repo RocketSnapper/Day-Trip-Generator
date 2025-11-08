@@ -60,10 +60,8 @@ def adjust_trip():
             trip_approval = ask_approval()
         else:
             print('Incorrect selection, try again')
-
 adjust_trip()
 
-
-def final_trip():  
+def display_final_trip():  
     print(f'Congratulations, your trip is going to {random_destination}, riding by {random_transportation}, eating at {random_restaurant}, followed by an evening enjoying {random_entertainment}.')
-final_trip()
+display_final_trip()
